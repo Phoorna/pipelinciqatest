@@ -25,6 +25,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build test suite
-        run: mvn --batch-mode --update-snapshots verify
+        run: mvn clean test
           echo "Running test suite"
           sleep 10s
